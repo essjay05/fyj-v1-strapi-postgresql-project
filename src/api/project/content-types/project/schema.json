@@ -19,18 +19,18 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "private": true,
       "allowedTypes": [
         "images"
       ]
     },
     "clickThruMedia": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "text"
